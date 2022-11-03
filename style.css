@@ -1,0 +1,30 @@
+body {
+  background-color: black;
+}
+.container {
+  display: flex;
+  padding: 20px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-size: 12px;
+}
+.block {
+  padding: 50px;
+  margin: 8px;
+  border: 3px solid rgb(102, 24, 82);
+  height: 400px;
+  width: 300px;
+}
+h4 {
+  color: white;
+}
+p {
+  color: #fff;
+  margin-top: 15;
+}
